@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://png.pngtree.com/background/20230827/original/pngtree-sleek-and-sophisticated-black-drum-kit-for-professional-rock-musicians-set-picture-image_4843176.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.key {
+  border: 3px solid rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+p{
+    color: rgb(222, 187, 9);
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+    transition: all 0.07s;
+}
