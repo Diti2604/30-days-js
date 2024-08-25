@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background: #5098bc url("http://unslpash.it/1500/1000?image=881&blur=50");
+  background-size: cover;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.clock {
+  border: 10px solid black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.handle{
+    background-color: black;
+    position: absolute;
+    transform-origin: bottom ;
+    transition: all 0.05s ease-in;
+}
+
+.hour-handle {
+  width: 6px;
+  height: 50px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.min-handle {
+  width: 4px;
+  height: 70px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.sec-handle {
+  width: 2px;
+  height: 80px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
